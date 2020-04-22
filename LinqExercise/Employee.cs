@@ -13,12 +13,12 @@ namespace LinqExercise
         {
             get
             {
-                return $"{FirstName} {LastName}";
+                return $"{FirstName} {LastName}"; //puts first name with last name
             }
         }
         public int YearsOfExperience { get; set; }
 
-        public Employee(string firstName, string lastName, int age, int yearsOfExperience)
+        public Employee(string firstName, string lastName, int age, int yearsOfExperience) //constructor
         {
             FirstName = firstName;
             LastName = lastName;
